@@ -1,0 +1,19 @@
+build/
+.cache/
+
+# ESP-IDF config
+sdkconfig
+sdkconfig.old
+sdkconfig.bak
+sdkconfig.save
+
+# Managed components (generated)
+managed_components/
+
+# Editor/OS noise
+.DS_Store
+.idea/
+.vscode/
+
+# Local notes
+INFO.txt

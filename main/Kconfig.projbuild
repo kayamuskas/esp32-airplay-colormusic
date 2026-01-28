@@ -1,0 +1,31 @@
+menu "AirPlay Spectrum Visualizer"
+
+config WIFI_SSID
+	string "WiFi SSID"
+	default "your-ssid"
+
+config WIFI_PASSWORD
+	string "WiFi Password"
+	default "your-password"
+
+config AIRPLAY_NAME
+	string "AirPlay service name"
+	default "ESP32-AirPlay"
+
+config MDNS_HOSTNAME
+	string "mDNS hostname"
+	default "esp32-airplay"
+
+config LED_PIN
+	int "WS2812B GPIO"
+	default 18
+
+config LED_COUNT
+	int "WS2812B LED count"
+	default 60
+
+config LED_BRIGHTNESS
+	int "LED brightness (0-255)"
+	default 96
+
+endmenu
