@@ -1,5 +1,7 @@
 # ESP32 AirPlay VU Visualizer
 
+[![Youtube Video]()](https://www.youtube.com/watch?v=SA417lKG95s)
+
 ESP-IDF project for ESP32-WROOM: AirPlay 1 (RAOP) receiver with a WS2812B LED VU visualizer. It reuses the RAOP implementation from `squeezelite-esp32` (`components/raop`). Audio output is disabled; decoded PCM is used only for LED visualization.
 
 ## Requirements
